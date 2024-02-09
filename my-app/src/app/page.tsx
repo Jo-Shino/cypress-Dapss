@@ -27,11 +27,12 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>
         <button
+          id="button"
           onClick={() => {
             connectWallet();
           }}
         >
-          aa
+          メタマスクを接続
         </button>
       </div>
     </main>
